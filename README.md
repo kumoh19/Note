@@ -1,7 +1,7 @@
 # Note
 
 프로젝트 개요:
-Enterprise Architecture를 기반 프로젝트를 구성하였다. (본 프로젝트에서는 인터페이스를 통한 주입 사용)</br>
+Enterprise Architecture를 기반 프로젝트를 구성하였다. (본 프로젝트에서는 생성자, 인터페이스를 통한 주입 사용)</br>
 비즈니스 로직을 담당하는 BusinessLogicLayer (BLL), 공통 모델을 구성하는 Common, 데이터 접근을 담당하는 DataAccessLayer (DAL), 웹 프레젠테이션을 담당하는 PresentationLayer를 생성했다. (솔루션 폴더)</br>
 각 폴더에 클래스 라이브러리를 생성하였으며, 코드의 재사용성을 높이고 다른 데이터베이스를 사용할 수 있도록 확장성을 갖추고 있다. </br>
 실행 시 클라이언트 버튼을 통해 ASP.NET MVC 리스트 출력 호출이 시작되며, 순차적으로 BLL, IDAL, 그리고 DAL이 호출되어 데이터를 처리한다.</br>
