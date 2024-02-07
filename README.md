@@ -47,3 +47,7 @@ builder.Services.AddTransient<IUserDal, UserDal>();</br>
 결론:</br>
 이러한 구성을 통해 Enterprise Architecture 기반의 프로젝트는 유연성과 확장성을 갖추면서, 코드의 재사용성을 높이고 중복을 최소화하여 유지보수성을 강화할 수 있다. </br>
 의존성 주입을 통해 계층 간의 강한 결합을 피하고, 인터페이스를 사용하여 계층 간의 상호작용을 추상화하여 개발자들이 보다 효율적으로 협업할 수 있다.</br>
+
+참고:
+개발토끼
+https://www.youtube.com/watch?v=dKvCZUec100&list=PLbPz1r_wDPhEcKDJbOBw_3h5c2gtyDicX&index=27
